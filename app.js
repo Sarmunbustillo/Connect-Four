@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         //if the square below your current square is not taken, you cant go here
-      } else alert('cant go here');
+      } else alert('You cannot place a chip there');
     };
   });
 
